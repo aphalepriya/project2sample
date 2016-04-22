@@ -20,13 +20,13 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-  host: localhost
-  username: root
-  password: root
+  host: ec2-174-129-37-54.compute-1.amazonaws.com
+  username: qazseihshypemq
+  password: MibWoUhAH49zFDyToXtpvZ9FXn
 
 development:
   <<: *default
-  database: dbrails_development
+  database: d3k3l7cp4lndas
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -60,7 +60,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: dbrails_test
+  database: d3k3l7cp4lndas
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
